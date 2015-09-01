@@ -10,5 +10,6 @@ article{
 }
 
 img {
-	max-width:100%;	
+	max-width:100%;
+	border:thick solid hsla(0,0%,81%,0.5);	
 }
