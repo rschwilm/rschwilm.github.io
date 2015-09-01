@@ -16,12 +16,13 @@ article{
 
 img {
 	max-width:100%;
-	border:thick solid hsla(0,0%,81%,0.5);	
+	border:thick groove #36d792;	
 }
 
 #intro{
-	background-color: rgba(53,214,152,.90) ;
-	color: #000;	
+	background-color: #36D792;
+	border: groove;
+	color: rgba(65,65,65,1.00);	
 	padding: 1%;
 	margin: 3%;
 }
