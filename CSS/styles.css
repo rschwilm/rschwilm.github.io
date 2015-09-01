@@ -11,7 +11,7 @@ article{
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-	martin-top: 3%;
+	margin-top: 4%;
 }
 
 img {
@@ -25,5 +25,16 @@ img {
 	color: rgba(65,65,65,1.00);	
 	padding: 1%;
 	margin: 3%;
+}
+
+
+nav{
+	width: 100%;
+	display: inline;	
+}
+nav a{
+	display: inline-block;
+	text-align:justify;
+	padding: 5%;	
 }
 
