@@ -1,6 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body{
+	background-color: #f36d91;
+	color: #fff;
+}
+
 article{
 	display: block;
 	width: 90%;
@@ -13,3 +18,11 @@ img {
 	max-width:100%;
 	border:thick solid hsla(0,0%,81%,0.5);	
 }
+
+#intro{
+	background-color: rgba(53,214,152,.90) ;
+	color: #000;	
+	padding: 1%;
+	margin: 3%;
+}
+
