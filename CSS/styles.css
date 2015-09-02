@@ -20,6 +20,7 @@ p{
 
 h2{
 	font-size:1.9em;
+	padding: 1%;
 }
 
 article{
@@ -64,7 +65,7 @@ a:link, a:visited {
 	color: #c0f400;
 }
 
-a:hover {
+a:hover, a:active {
     text-decoration: underline;
 	font-size: 1.3em;
 }
