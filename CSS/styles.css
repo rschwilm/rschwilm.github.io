@@ -3,7 +3,6 @@
 
 body{
 	background-color: #f33d6e;
-	color: #fff;
 	border: dashed #000;
 	margin: 2px;
 }
@@ -29,8 +28,9 @@ article{
 	margin-left: 3%;
 	margin-right: 3%;
 	margin-top: 4%;
-	background-color: rgba(43,186,125,0.96);
+	background-color: #36D792;
 	padding: 2%;
+	border: groove;
 }
 
 img {
