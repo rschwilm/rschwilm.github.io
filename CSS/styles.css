@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-color: #f36d91;
+	background-color: #f33d6e;
 	color: #fff;
 	border: dashed #000;
 	margin: 2px;
@@ -53,7 +53,7 @@ nav{
 	
 	
 }
-nav a{
+nav ul li{
 	display: inline-block;
 	text-align:justify;
 	padding: 5%;	
