@@ -69,3 +69,14 @@ a:hover, a:active {
     text-decoration: underline;
 	font-size: 1.3em;
 }
+
+button{
+	width: 30%;
+	height: 50px;
+	font-size: 1.2em;
+	background-color: #24C681;	
+}
+
+button > a:hover{
+	font-size: 1.2em;
+}
