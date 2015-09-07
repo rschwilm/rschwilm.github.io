@@ -80,3 +80,30 @@ button{
 button > a:hover{
 	font-size: 1.2em;
 }
+
+/*Nav bar component styling*/
+
+#nav_bar_design{
+	max-width: 96%;
+	height: 206 px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+	background: -moz-linear-gradient(left, rgba(50,48,46,1) 0%, rgba(48,47,44,1) 2%, rgba(50,48,46,1) 9%, rgba(48,47,44,1) 12%, rgba(49,47,44,1) 31%, rgba(47,45,43,1) 32%, rgba(47,45,43,1) 43%, rgba(49,48,45,1) 46%, rgba(47,44,42,1) 51%, rgba(48,46,42,1) 55%, rgba(46,44,41,1) 57%, rgba(48,46,42,1) 59%, rgba(45,44,41,1) 69%, rgba(47,45,43,1) 71%, rgba(45,44,41,1) 71%, rgba(45,43,40,1) 75%, rgba(47,45,43,1) 78%, rgba(44,42,39,1) 83%, rgba(47,45,43,1) 88%, rgba(45,42,40,1) 90%, rgba(45,44,41,1) 92%, rgba(43,41,39,1) 96%, rgba(46,44,41,1) 97%, rgba(43,41,40,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(50,48,46,1)), color-stop(2%,rgba(48,47,44,1)), color-stop(9%,rgba(50,48,46,1)), color-stop(12%,rgba(48,47,44,1)), color-stop(31%,rgba(49,47,44,1)), color-stop(32%,rgba(47,45,43,1)), color-stop(43%,rgba(47,45,43,1)), color-stop(46%,rgba(49,48,45,1)), color-stop(51%,rgba(47,44,42,1)), color-stop(55%,rgba(48,46,42,1)), color-stop(57%,rgba(46,44,41,1)), color-stop(59%,rgba(48,46,42,1)), color-stop(69%,rgba(45,44,41,1)), color-stop(71%,rgba(47,45,43,1)), color-stop(71%,rgba(45,44,41,1)), color-stop(75%,rgba(45,43,40,1)), color-stop(78%,rgba(47,45,43,1)), color-stop(83%,rgba(44,42,39,1)), color-stop(88%,rgba(47,45,43,1)), color-stop(90%,rgba(45,42,40,1)), color-stop(92%,rgba(45,44,41,1)), color-stop(96%,rgba(43,41,39,1)), color-stop(97%,rgba(46,44,41,1)), color-stop(100%,rgba(43,41,40,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(50,48,46,1) 0%,rgba(48,47,44,1) 2%,rgba(50,48,46,1) 9%,rgba(48,47,44,1) 12%,rgba(49,47,44,1) 31%,rgba(47,45,43,1) 32%,rgba(47,45,43,1) 43%,rgba(49,48,45,1) 46%,rgba(47,44,42,1) 51%,rgba(48,46,42,1) 55%,rgba(46,44,41,1) 57%,rgba(48,46,42,1) 59%,rgba(45,44,41,1) 69%,rgba(47,45,43,1) 71%,rgba(45,44,41,1) 71%,rgba(45,43,40,1) 75%,rgba(47,45,43,1) 78%,rgba(44,42,39,1) 83%,rgba(47,45,43,1) 88%,rgba(45,42,40,1) 90%,rgba(45,44,41,1) 92%,rgba(43,41,39,1) 96%,rgba(46,44,41,1) 97%,rgba(43,41,40,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(50,48,46,1) 0%,rgba(48,47,44,1) 2%,rgba(50,48,46,1) 9%,rgba(48,47,44,1) 12%,rgba(49,47,44,1) 31%,rgba(47,45,43,1) 32%,rgba(47,45,43,1) 43%,rgba(49,48,45,1) 46%,rgba(47,44,42,1) 51%,rgba(48,46,42,1) 55%,rgba(46,44,41,1) 57%,rgba(48,46,42,1) 59%,rgba(45,44,41,1) 69%,rgba(47,45,43,1) 71%,rgba(45,44,41,1) 71%,rgba(45,43,40,1) 75%,rgba(47,45,43,1) 78%,rgba(44,42,39,1) 83%,rgba(47,45,43,1) 88%,rgba(45,42,40,1) 90%,rgba(45,44,41,1) 92%,rgba(43,41,39,1) 96%,rgba(46,44,41,1) 97%,rgba(43,41,40,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(50,48,46,1) 0%,rgba(48,47,44,1) 2%,rgba(50,48,46,1) 9%,rgba(48,47,44,1) 12%,rgba(49,47,44,1) 31%,rgba(47,45,43,1) 32%,rgba(47,45,43,1) 43%,rgba(49,48,45,1) 46%,rgba(47,44,42,1) 51%,rgba(48,46,42,1) 55%,rgba(46,44,41,1) 57%,rgba(48,46,42,1) 59%,rgba(45,44,41,1) 69%,rgba(47,45,43,1) 71%,rgba(45,44,41,1) 71%,rgba(45,43,40,1) 75%,rgba(47,45,43,1) 78%,rgba(44,42,39,1) 83%,rgba(47,45,43,1) 88%,rgba(45,42,40,1) 90%,rgba(45,44,41,1) 92%,rgba(43,41,39,1) 96%,rgba(46,44,41,1) 97%,rgba(43,41,40,1) 100%); /* IE10+ */
+background: linear-gradient(to right, rgba(50,48,46,1) 0%,rgba(48,47,44,1) 2%,rgba(50,48,46,1) 9%,rgba(48,47,44,1) 12%,rgba(49,47,44,1) 31%,rgba(47,45,43,1) 32%,rgba(47,45,43,1) 43%,rgba(49,48,45,1) 46%,rgba(47,44,42,1) 51%,rgba(48,46,42,1) 55%,rgba(46,44,41,1) 57%,rgba(48,46,42,1) 59%,rgba(45,44,41,1) 69%,rgba(47,45,43,1) 71%,rgba(45,44,41,1) 71%,rgba(45,43,40,1) 75%,rgba(47,45,43,1) 78%,rgba(44,42,39,1) 83%,rgba(47,45,43,1) 88%,rgba(45,42,40,1) 90%,rgba(45,44,41,1) 92%,rgba(43,41,39,1) 96%,rgba(46,44,41,1) 97%,rgba(43,41,40,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32302e', endColorstr='#2b2928',GradientType=1 ); /* IE6-9 */
+}
+
+.nav_bar_item{
+	width: 10%;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+	background-color: gray;
+	max-width: 90px;
+}
