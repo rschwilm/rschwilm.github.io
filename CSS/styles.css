@@ -102,8 +102,9 @@ button > a:hover{
 }
 
 .nav_bar_item{
-	width: 11%;
-	height: 12px;
+	width: 16%;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	margin-left:0px;
 	margin-right:0px;
 	margin-top: 17px;
@@ -141,8 +142,9 @@ button > a:hover{
 }
 
 #selected {
-	width: 11%;
-	height: 12px;
+	width: 16%;
+	padding-top: 44px;
+	padding-bottom: 40px;
 	margin-left:0px;
 	margin-right:0px;
 	margin-top: 17px;
