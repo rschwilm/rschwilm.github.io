@@ -100,7 +100,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#32302e', end
 
 .nav_bar_item{
 	width: 11%;
-	height: 20px;
+	height: 12px;
 	margin-left:0px;
 	margin-right:0px;
 	margin-top: 17px;
@@ -117,20 +117,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383532', end
 	
 }
 
-.nav_bar_item > #selected{
-	background-color: #5b5a58;	
-}
-
 .nav_bar_item a:link, a:visited{
 	font-size:0.7em;
-	text-align: center;
 	color: #ffffff;
-	tet-decoration: none;
+	text-decoration: none;
 }
 
  .nav_bar_item a:hover, a:active{
 	font-size:0.7em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#selected a:link, a:visited{
+	font-size:0.7em;
 	text-align: center;
 	color: #ffffff;
-	tet-decoration: none;
+	text-decoration: none;
+}
+
+#selected {
+	width: 11%;
+	height: 12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top: 17px;
+	margin-bottom: 17px;
+	max-width: 90px;
+	background-color: #989897;
 }
