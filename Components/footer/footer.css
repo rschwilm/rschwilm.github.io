@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*General Styling*/
+
+body{
+	background-color: #f33d6e;
+	border: dashed #000;
+	margin: 2px;
+
+}
+
+a:link, a:visited {
+    text-decoration: none;
+	color: #c0f400;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+	font-size: 1.3em;
+}
+
+button{
+	width: 30%;
+	height: 50px;
+	font-size: 1.2em;
+	background-color: #24C681;	
+}
+
+button > a:hover{
+	font-size: 1.2em;
+}
+
+/**************************************
+*Footer component styling*
+**************************************/
+footer{
+	width:100%;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#footerTop p{
+	display: inline-block;
+	float: left;
+	margin-left:15px;
+	padding-right: 5%;	
+	padding-top: 7%;
+}
+
+#footerTop img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	padding-top: 8%;
+	padding-left: 120px;
+}
+
+#footerBottom #large{
+	font-size: 2em;
+}
+
+#footerBottom p{
+	display: inline-block;
+	padding-left: 120px;
+	font-size: 1em;
+	padding-top: 45px;
+}
+
+#footerTop{
+	background-color: #212121;
+	height: 285px;	
+	text-transform:uppercase;
+}
+
+#footerBottom{
+	background-color: #111111;
+	height: 239px;
+}
+
+ul{
+	padding-left: 100px;	
+	padding-bottom: 240px;
+	
+}
+
+ul li{
+	display: inline-block;	
+	padding-top:-100px;
+}
+
+#map{
+	float: right;
+	padding-right: 100px;	
+	margin-top: 25px;
+}
