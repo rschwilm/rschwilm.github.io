@@ -80,11 +80,11 @@ footer{
 
 ul{
 	padding-left: 100px;	
-	
+	padding-top: -1000px;
 }
 
 ul li{
-	display: inline-block;	
+	display: inline-block;
 }
 
 #map{
