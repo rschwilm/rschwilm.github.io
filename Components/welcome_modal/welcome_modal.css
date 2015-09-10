@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*General Styling*/
+
+body{
+	background-color: #f33d6e;
+	border: dashed #000;
+	margin: 2px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+	color: #c0f400;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+	font-size: 1.3em;
+}
+
+button{
+	width: 30%;
+	height: 50px;
+	font-size: 1.2em;
+	background-color: #24C681;	
+}
+
+button > a:hover{
+	font-size: 1.2em;
+}
+
+/**************************************
+*Welcome Modal component styling*
+**************************************/
+
+#modal{
+	margin: auto;
+	margin-top: 50px;
+	width: 1026px;
+	height: 542px;
+	background-color: #ee4f51;
+	border: thin solid #000;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	color: #fff;
+}
+
+h1{
+	font-size: 3.8em;
+	padding-top: 30px;
+}
+
+p{
+	font-size:1.3em;	
+}
+
+input[type="email"] {
+	border: none;
+	border-bottom: solid 1px #fff;
+	background-color: #ee4f51;
+	width: 392px;
+}
+
+#subscribe{
+	background-color: #fff;
+	border: none;
+	border-radius: 60px;
+	height: 82px;
+	font-size: 1.4em;
+	margin-top: 42px;
+}
+
+#close{
+	display: inline-block;
+	float: right;
+	padding-right: 38px;	
+	clear:both;
+	font-weight: bolder;
+}
