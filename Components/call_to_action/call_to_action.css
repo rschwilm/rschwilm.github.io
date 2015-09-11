@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*General Styling*/
+
+body{
+	background-color: #f33d6e;
+	border: dashed #000;
+	margin: 2px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+	color: #c0f400;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+	font-size: 1.3em;
+}
+
+button{
+	width: 30%;
+	height: 50px;
+	font-size: 1.2em;
+	background-color: #24C681;	
+}
+
+button > a:hover{
+	font-size: 1.2em;
+}
+
+/**************************************
+*Call to Action component styling*
+**************************************/
+
+section{
+	width: 65%;
+	margin:auto;
+	margin-bottom: 15px;
+	background-color: #fff;
+	text-align: center;	
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 2.0em;	
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p{
+	font-size: 0.95em;
+	text-transform:uppercase;
+	color: #e2924c;
+	font-weight: 300;
+	position: relative;
+	top: -13px;
+}
+
+section button{
+	text-transform: uppercase;	
+	background-color: #457e99;
+	border-radius: 70px;
+	margin: 2px;
+	color: #fff;
+	position: relative;
+	top: -5px;
+	border: none;
+	font-size: 1em;
+	font-weight: 300;
+}
