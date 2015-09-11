@@ -79,11 +79,13 @@ footer{
 }
 
 ul{
-	padding-left: 100px;	
-	padding-top: -1000px;
+	
+	padding-left: 105px;	
 }
 
 ul li{
+	position: relative;
+	top: -40px;
 	display: inline-block;
 }
 
