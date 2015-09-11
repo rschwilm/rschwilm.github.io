@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*General Styling*/
+
+body{
+	background-color: #f33d6e;
+	border: dashed #000;
+	margin: 2px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+	color: #c0f400;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+	font-size: 1.3em;
+}
+
+button{
+	width: 30%;
+	height: 50px;
+	font-size: 1.2em;
+	background-color: #24C681;	
+}
+
+button > a:hover{
+	font-size: 1.2em;
+}
+
+/**************************************
+*Contact Form component styling*
+**************************************/
+
+section{
+	background-color: #374046;
+	width: 1230px;
+	height: 559px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: 'Alegreya Sans', sans-serif;
+	
+}
+
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight:300;
+}
+
+p{
+	color: #75848d;	
+}
+
+#green{
+	color: #50ae55;
+}
+
+#left{
+	width: 357px;
+	float: left;	
+	padding-left: 30px;
+	padding-top: 50px;
+}
+
+#right{
+	width: 843px;
+	float: right;
+	padding-top: 50px;
+}
