@@ -37,7 +37,7 @@ button > a:hover{
 section{
 	background-color: #374046;
 	width: 1230px;
-	height: 559px;
+	height: 650px;
 	margin: auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -49,25 +49,73 @@ h1{
 	color: #fff;
 	text-transform: uppercase;
 	font-weight:300;
+	margin-top: 58px;
+	font-size: 1.9em;
 }
 
 p{
 	color: #75848d;	
+	margin-top: 25px;
+	font-size: 1.1em;
 }
 
 #green{
 	color: #50ae55;
 }
 
+ul{
+	
+}
+
+ul li{
+	position: relative;
+	left: -45px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+
 #left{
 	width: 357px;
 	float: left;	
 	padding-left: 30px;
-	padding-top: 50px;
 }
 
 #right{
 	width: 843px;
 	float: right;
-	padding-top: 50px;
+}
+
+input{
+	background-color: #374046;
+	color: #75848d;	
+	padding-left: 40px;
+	height: 51px;
+	width: 349px;
+	margin-right: 26px;
+	margin-top: 11px;
+	border: solid thin #75848d;
+	font-size: 0.9em;
+}
+
+textarea{
+	background-color: #374046;
+	height: 245px;	
+	width: 730px;
+	color: #75848d;	
+	margin-top: 33px;
+	border: solid thin #75848d;
+	padding:40px;
+	font-size: 0.9em;
+}
+
+form button{
+	background-color: #50ae55;
+	text-transform: uppercase;
+	color: #fff;
+	width: 812px;
+	font-weight: 300;
+	border: none;
+	margin-top: 25px;
 }
