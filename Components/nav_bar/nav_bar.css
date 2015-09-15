@@ -4,14 +4,12 @@
 /*General Styling*/
 
 body{
-	background-color: #f33d6e;
-	border: dashed #000;
-	margin: 2px;
+	background-color: rgba(69,97,124,1.00);
 }
 
 a:link, a:visited {
     text-decoration: none;
-	color: #c0f400;
+	color: #fff;
 }
 
 a:hover, a:active {
@@ -23,7 +21,8 @@ button{
 	width: 30%;
 	height: 50px;
 	font-size: 1.2em;
-	background-color: #24C681;	
+	border-radius: 12px;
+	background-color: rgba(0,0,0,0.57);	
 }
 
 button > a:hover{
