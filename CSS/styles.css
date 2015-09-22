@@ -69,15 +69,17 @@ a:hover, a:active {
 	font-size: 1.3em;
 }
 
-button{
+article a{
+	position: relative;
+	top: 10px;
 	width: 30%;
-	height: 50px;
-	font-size: 1.2em;
+	padding: 15px;
+	font-size: 1.0em;
 	border-radius: 12px;
 	background-color: rgba(0,0,0,0.57);	
 }
 
-button > a:hover{
-	font-size: 1.2em;
+article a > a:hover{
+	font-size: 1.1em;
 }
 
