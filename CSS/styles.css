@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-color: rgba(69,97,124,1.00);
+	background-image: url(../img/colorful-grunge-texture-13%20copy.jpg);
 }
 
 /*text styling*/
@@ -27,35 +27,32 @@ article{
 	margin-left: 3%;
 	margin-right: 3%;
 	margin-top: 4%;
-	background-color: #36D792;
+	background-color: #5b5561;
 	padding: 2%;
 	border: groove;
 }
 
 img {
 	max-width:100%;
-	border:thick groove #36d792;	
+	border:thick groove #5e6b57;	
 }
 
 #intro{
-	background-color: #36D792;
-	border: groove;
-	color: rgba(65,65,65,1.00);	
+	background-color: #5b5561;
+	border: groove;	
 	padding: 1%;
 	margin: 3%;
 }
 
 
 nav{
-	width: 100%;
 	display: inline;	
-	
-	
 }
+
 nav ul li{
 	display: inline-block;
-	text-align:justify;
-	padding: 5%;	
+	width: calc(100% / 6);
+	text-align: center;
 	font-size:1.1em;
 }
 
@@ -66,7 +63,6 @@ a:link, a:visited {
 
 a:hover, a:active {
     text-decoration: underline;
-	font-size: 1.3em;
 }
 
 article a{
@@ -76,10 +72,8 @@ article a{
 	padding: 15px;
 	font-size: 1.0em;
 	border-radius: 12px;
-	background-color: rgba(0,0,0,0.57);	
+	background-color: #3B3B3B;
 }
 
-article a > a:hover{
-	font-size: 1.1em;
-}
+
 

@@ -4,30 +4,24 @@
 /*General Styling*/
 
 body{
-	background-color: rgba(69,97,124,1.00);
+	background-image: url(../../img/colorful-grunge-texture-13%20copy.jpg);
 }
 
-a:link, a:visited {
-    text-decoration: none;
-	color: #fff;
-}
-
-a:hover, a:active {
-    text-decoration: underline;
-	font-size: 1.3em;
-}
-
-button{
+#home{
+	position: relative;
+	top: 10px;
 	width: 30%;
-	height: 50px;
-	font-size: 1.2em;
+	padding: 15px;
+	font-size: 1.0em;
 	border-radius: 12px;
 	background-color: rgba(0,0,0,0.57);	
+	color: #fff;	
 }
 
-button > a:hover{
-	font-size: 1.2em;
+#home:hover{
+	font-size: 1.1em;
 }
+
 
 /**************************************
 *Contact Form component styling*
@@ -117,4 +111,6 @@ form button{
 	font-weight: 300;
 	border: none;
 	margin-top: 25px;
+	padding: 2%;
+	font-size: 1.2em;
 }
