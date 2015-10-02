@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+input{
+	width: 30%;	
+}
+
+body{
+	background-image: url(../img/bg-img.png);
+	background-size:cover;
+}
+
+h1{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 2.5em;
+}
+
+h2{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 2em;
+	
+}
+
+h2 > span{
+	font-family: 'Coming Soon', cursive;	
+	font-size: 0.75em;
+	margin-left: 15px;
+	background-color:rgba(255,246,246,0.72);
+	border-radius: 15px;
+	padding: 8px;
+}
+
+td:nth-child(odd) {
+	font-family: 'Coming Soon', cursive;	
+	font-weight: bold;
+}
+
+td > button{
+	background: none;
+	color: rgba(0,0,0,1.00);
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin-left: 35px;
+}
